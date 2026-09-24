@@ -749,6 +749,8 @@ jobs:
             test: "--acceptance-self-recovery"
           - name: "self-recovery-lazy"
             test: "--acceptance-self-recovery-lazy"
+          - name: "self-recovery-intact"
+            test: "--acceptance-self-recovery-intact"
           - name: "python"
             test: "--acceptance-only-python"
           - name: "python-namespaces"
